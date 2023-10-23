@@ -1,0 +1,390 @@
+#Header {
+    background-color: #191717;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+#logo-icon {
+    width: 4%;
+}
+
+#home-div {
+    background-color: #919191;
+    color: #f7f5f2;
+    height: 570px;
+}
+
+#home-div h2 {
+    margin-left: -1%;
+    margin-top: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home-div h1 {
+    margin-left: -1%;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home-div p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1%;
+}
+
+#home-div p span {
+    color: #191717;
+    font-size: 25px;
+}
+
+#home-div img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2%;
+}
+
+.forth {
+    display: flex;
+    background: #191717;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    color: #4d7ebe;
+}
+
+.forth div {
+    color: #f7f5f2;
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #919191;
+    border-radius: 26px;
+    justify-content: center;
+
+}
+.forth div:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.13);
+}
+#AboutMeSec {
+    height: 450px;
+    width: 100%;
+    color: #f7f5f2;
+    background-color: #191717;
+}
+
+#AboutMeSec h3 {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+#AboutMeSec #Card {
+    max-width: 90%;
+    background-color: #919191;
+}
+
+#AboutMeSec img {
+    width: 240px;
+    margin-left: 10%;
+    margin-top: 75px;
+}
+
+#AboutMeSec #Card p {
+    font-weight: bold;
+    text-align: justify;
+}
+
+#slideA,
+#slideB,
+#slideC {
+    width: 70%;
+}
+
+#ProjectSec {
+    background-color: #919191;
+    height: 1650px;
+    text-align: center;
+}
+
+#ProjectSec #ProjText {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ProjectSec img {
+    border-radius: 10px;
+}
+
+#ProjectSec h3 {
+    font-weight: bold;
+}
+
+#VolunteerSec {
+    height: 600px;
+    width: 100%;
+    color: #f7f5f2;
+    background-color: #191717;
+}
+
+#VolunteerSec h3 {
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+#Contact {
+    color: #191717;
+    background-color: #919191;
+    height: 430px;
+    width: 100%;
+}
+
+#Contact a img {
+    width: 4%;
+}
+
+#Contact #logoIcon {
+    width: 3%;
+}
+
+#Contact h6 {
+    font-size: medium;
+}
+
+#Contact #ContactImg {
+    width: 15%;
+    margin-bottom: 1%;
+}
+
+#Contcat p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Contcat h3 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#AboutMe {
+    position: relative;
+    bottom: 75px;
+}
+
+#Projects {
+    position: relative;
+    bottom: 20px;
+}
+
+#Volunteering {
+    position: relative;
+    bottom: 43px;
+}
+
+@media only screen and (max-width: 768px) {
+    #Header {
+        background-color: #191717;
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+    }
+    
+    #logo-icon {
+        width: 10%;
+    }
+    
+    #home-div {
+        background-color: #919191;
+        color: #f7f5f2;
+        height: 570px;
+    }
+    
+    #home-div h2 {
+        color: #191717;
+        margin-left: -1%;
+        margin-top: 20%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #home-div h1 {
+        margin-left: -1%;
+        font-size: 75px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #home-div p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: -1%;
+        font-size: 20px;
+    }
+    
+    #home-div p span {
+        color: #191717;
+        font-size: 25px;
+    }
+    
+    #home-div img {
+       display: none;
+    }
+    
+    
+    #AboutMeSec {
+        height: 720px;
+        width: 100%;
+        color: #f7f5f2;
+        background-color: #191717;
+    }
+    
+    #AboutMeSec h3 {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+    }
+    
+    #AboutMeSec #Card {
+        height: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+        background-color: #919191;
+    }
+    
+    #AboutMeSec img {
+        width: 200px;
+        margin-left: auto;
+        margin-top: 35px;
+    }
+    
+    #AboutMeSec #Card p {
+        font-weight: 200;
+        font-size: small;
+        text-align: justify;
+    }
+    
+    #slideA,
+    #slideB,
+    #slideC {
+        width: 90%;
+    }
+    
+    #ProjectSec {
+        background-color: #919191;
+        height: 850px;
+        text-align: center;
+    }
+    
+    #ProjectSec #ProjText {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #ProjectSec img {
+        border-radius: 10px;
+    }
+    
+    #ProjectSec h3 {
+        font-weight: bold;
+    }
+    
+    #VolunteerSec {
+        height: 1000px;
+        width: 100%;
+        color: #f7f5f2;
+        background-color: #191717;
+    }
+    
+    #VolunteerSec h3 {
+        font-size: 50px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+            sans-serif;
+    }
+    .forth {
+        display: block;
+        background: #191717;
+        margin: 30px;
+        padding: 0%;
+        padding-left: 55px;
+
+        text-align: center;
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    
+    hr {
+        color: #4d7ebe;
+    }
+    .forth div p{
+        font-size: small;
+    }
+    .forth div h4{
+        font-size: medium;
+    }
+    .forth div {
+        color: #f7f5f2;
+        width: 70%;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        background-color: #919191;
+        border-radius: 26px;
+        justify-content: center;
+    
+    }
+    .forth div {
+        box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.053);
+    }
+    #Contact {
+        color: #191717;
+        background-color: #919191;
+        height: 330px;
+        width: 100%;
+    }
+    
+    #Contact a img {
+        width: 13%;
+    }
+    
+    #Contact #logoIcon {
+        width: 8%;
+    }
+    
+    #Contact h6 {
+        font-size: small;
+    }
+    
+    #Contact #ContactImg {
+        width: 35%;
+        margin-bottom: 3%;
+    }
+    
+    #Contcat p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #Contcat h3 {
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    #AboutMe {
+        position: relative;
+        bottom: 75px;
+    }
+    
+    #Projects {
+        position: relative;
+        bottom: 20px;
+    }
+    
+    #Volunteering {
+        position: relative;
+        bottom: 43px;
+    }
+      
+}
