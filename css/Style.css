@@ -125,6 +125,11 @@ hr {
 #ProjectSec h3 {
     font-weight: bold;
 }
+#ProjectSec #Porto{
+    margin-left: 19%; 
+    width:60%;
+    text-align: center;
+}
 
 #VolunteerSec {
     height: 600px;
@@ -142,7 +147,7 @@ hr {
 #Contact {
     color: #191717;
     background-color: #919191;
-    height: 430px;
+    height: 400px;
     width: 100%;
 }
 
@@ -196,9 +201,13 @@ hr {
     }
     
     #logo-icon {
-        width: 10%;
+        width: 12%;
     }
-    
+    .nav-link:hover {
+        background-color: #919191;
+        border-radius: 0%;
+        text-decoration: none;
+      }
     #home-div {
         background-color: #919191;
         color: #f7f5f2;
