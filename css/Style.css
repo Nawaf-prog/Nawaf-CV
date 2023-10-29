@@ -1,3 +1,4 @@
+/* Nawaf Mohammed - 2140924 */
 #Header {
     background-color: #191717;
     position: fixed;
@@ -150,7 +151,7 @@ hr {
 #Contact {
     color: #191717;
     background-color: #919191;
-    height: 400px;
+    height: 410px;
     width: 100%;
 }
 
@@ -196,163 +197,33 @@ hr {
 }
 /* -------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 992px) {
-    
-    #Header {
-        background-color: #191717;
-        position: fixed;
-        z-index: 9999;
-        width: 100%;
-    }
-    
+       
     #logo-icon {
         width: 8%;
     }
-    
-    #home-div {
-        background-color: #919191;
-        color: #f7f5f2;
-        height: 570px;
-    }
-    
-    #home-div h2 {
-        color: #191717;
-        margin-left: -1%;
-        margin-top: 20%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #home-div h1 {
-        margin-left: -1%;
-        font-size: 75px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #home-div p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: -1%;
-    }
-    
-    #home-div p span {
-        color: #191717;
-        font-size: 25px;
-    }
-    
+
     #home-div img {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
         margin-top: 10%;
     }
-    
-    .forth {
-        display: flex;
-        background: #191717;
-        margin: 30px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    hr {
-        color: #4d7ebe;
-    }
-    
-    .forth div {
-        color: #f7f5f2;
-        width: 25%;
-        margin: 20px;
-        padding: 10px;
-        border: none;
-        background-color: #919191;
-        border-radius: 26px;
-        justify-content: center;
-        text-align: center;
-    
-    }
-    .forth div:hover {
-        transform: translateY(-0.5%);
-        box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.13);
-    }
+ 
     #AboutMeSec {
-        height: 54vh;
-        width: 100%;
-        color: #f7f5f2;
-        background-color: #191717;
-    }
-    
-    #AboutMeSec h3 {
-        font-size: 70px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
-    }
-    
-    #AboutMeSec #Card {
-        margin-left: 5%;
-        max-width: 90%;
-        background-color: #919191;
+        height: 43vh;
     }
     
     #AboutMeSec img {
-        width: 240px;
-        margin-left: 10%;
-        margin-top: 75px;
+        width: 200px;
+        margin-left: 8%;
+        margin-right: 20%;
+        margin-top: 100px;
     }
     
-    #AboutMeSec #Card p {
-        font-weight: bold;
-        text-align: justify;
-    }
-    
-    #slideA,
-    #slideB,
-    #slideC {
-        width: 70%;
-    }
     
     #ProjectSec {
-        background-color: #919191;
-        height: 100vh;
-        text-align: center;
+        height: 105vh;
     }
-    
-    #ProjectSec #ProjText {
-        font-size: 70px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #ProjectSec img {
-        border-radius: 10px;
-    }
-    
-    #ProjectSec h3 {
-        font-weight: bold;
-    }
-    #ProjectSec #Porto{
-        margin-left: 19%; 
-        width:60%;
-        text-align: center;
-    }
-    
-    #VolunteerSec {
-        height: 600px;
-        width: 100%;
-        color: #f7f5f2;
-        background-color: #191717;
-    }
-    
-    #VolunteerSec h3 {
-        font-size: 70px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
-    }
-    
     #Contact {
-        color: #191717;
-        background-color: #919191;
-        height: 410px;
-        width: 100%;
+        height: 38vh;
     }
-    
     #Contact a img {
         width: 10%;
     }
@@ -361,37 +232,8 @@ hr {
         width: 5%;
     }
     
-    #Contact h6 {
-        font-size: medium;
-    }
-    
     #Contact #ContactImg {
         width: 21%;
-        margin-bottom: 1%;
-    }
-    
-    #Contcat p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #Contcat h3 {
-        font-size: 40px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #AboutMe {
-        position: relative;
-        bottom: 75px;
-    }
-    
-    #Projects {
-        position: relative;
-        bottom: 20px;
-    }
-    
-    #Volunteering {
-        position: relative;
-        bottom: 43px;
     }
       
 }
@@ -417,11 +259,6 @@ hr {
     #home-div p {
         font-size: 20px;
     }
-    
-    #home-div p span {
-        color: #191717;
-        font-size: 25px;
-    }
 
     #home-div img {
        display: none;
@@ -430,19 +267,12 @@ hr {
         max-width: 100%;
     }
     
-    
-    
     #AboutMeSec {
         height: 480px;
-        width: 100%;
-        color: #f7f5f2;
-        background-color: #191717;
     }
     
     #AboutMeSec h3 {
         font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
     }
     
     #AboutMeSec #Card {
@@ -450,7 +280,6 @@ hr {
         margin-left: auto;
         margin-right: auto;
         max-width: 80%;
-        background-color: #919191;
     }
     
     #AboutMeSec img {
@@ -479,36 +308,14 @@ hr {
     
     #ProjectSec #ProjText {
         font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #ProjectSec img {
-        border-radius: 10px;
-    }
-    
-    #ProjectSec h3 {
-        font-weight: bold;
-    }
-    #ProjectSec #Porto{
-        margin-left: 19%; 
-        width:60%;
-        text-align: center;
     }
     
     #VolunteerSec {
-        /* display: flex; */
         height: 1450px;
-        width: 100%;
-        color: #f7f5f2;
-        background-color: #191717;
-        /* align-items: center;
-        justify-content: center; */
     }
     
     #VolunteerSec h3 {
         font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
     }
     .forth {
         display: block;
@@ -517,14 +324,7 @@ hr {
         padding: 0%;
         padding-left: 55px;
         margin-left: 11%;
-
         text-align: center;
-        /* align-items: center; */
-        /* justify-content: center; */
-    }
-    
-    hr {
-        color: #4d7ebe;
     }
     .forth div p{
         font-size: small;
@@ -547,10 +347,7 @@ hr {
         box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.053);
     }
     #Contact {
-        color: #191717;
-        background-color: #919191;
         height: 520px;
-        width: 100%;
     }
     
     #Contact a img {
@@ -570,20 +367,6 @@ hr {
         margin-bottom: 3%;
     }
     
-    #Contcat p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #Contcat h3 {
-        font-size: 40px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #AboutMe {
-        position: relative;
-        bottom: 75px;
-    }
-    
     #Projects {
         position: relative;
         bottom: 40px;
@@ -597,12 +380,6 @@ hr {
 }
 /* -------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 576px) {
-    #Header {
-        background-color: #191717;
-        position: fixed;
-        z-index: 9999;
-        width: 100%;
-    }
     
     #logo-icon {
         width: 12%;
@@ -613,33 +390,15 @@ hr {
         text-decoration: none;
     }
     #home-div {
-        background-color: #919191;
-        color: #f7f5f2;
         height: 650px;
     }
     
     #home-div h2 {
-        color: #191717;
-        margin-left: -1%;
         margin-top: 30%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #home-div h1 {
-        margin-left: -1%;
-        font-size: 75px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
     #home-div p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-left: -1%;
         font-size: 20px;
-    }
-    
-    #home-div p span {
-        color: #191717;
-        font-size: 25px;
     }
 
     #home-div img {
@@ -649,19 +408,12 @@ hr {
         max-width: 100%;
     }
     
-    
-    
     #AboutMeSec {
         height: 680px;
-        width: 100%;
-        color: #f7f5f2;
-        background-color: #191717;
     }
     
     #AboutMeSec h3 {
         font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
     }
     
     #AboutMeSec #Card {
@@ -669,7 +421,6 @@ hr {
         margin-left: auto;
         margin-right: auto;
         max-width: 80%;
-        background-color: #919191;
     }
     
     #AboutMeSec img {
@@ -691,40 +442,19 @@ hr {
     }
     
     #ProjectSec {
-        background-color: #919191;
         height: 1100px;
-        text-align: center;
     }
     
     #ProjectSec #ProjText {
         font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #ProjectSec img {
-        border-radius: 10px;
-    }
-    
-    #ProjectSec h3 {
-        font-weight: bold;
-    }
-    #ProjectSec #Porto{
-        margin-left: 19%; 
-        width:60%;
-        text-align: center;
     }
     
     #VolunteerSec {
         height: 1000px;
-        width: 100%;
-        color: #f7f5f2;
-        background-color: #191717;
     }
     
     #VolunteerSec h3 {
         font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-            sans-serif;
     }
     .forth {
         display: block;
@@ -733,10 +463,6 @@ hr {
         padding: 0%;
         padding-left: 55px;
         text-align: center;
-    }
-    
-    hr {
-        color: #4d7ebe;
     }
     .forth div p{
         font-size: small;
@@ -780,30 +506,6 @@ hr {
     #Contact #ContactImg {
         width: 35%;
         margin-bottom: 3%;
-    }
-    
-    #Contcat p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #Contcat h3 {
-        font-size: 40px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    
-    #AboutMe {
-        position: relative;
-        bottom: 75px;
-    }
-    
-    #Projects {
-        position: relative;
-        bottom: 20px;
-    }
-    
-    #Volunteering {
-        position: relative;
-        bottom: 43px;
     }
       
 }
